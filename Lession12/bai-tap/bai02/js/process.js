@@ -1,5 +1,4 @@
 $(function() {
-
 	var element = document.getElementById('myP');
 
 	$('#deFault').click(function() {
@@ -17,5 +16,4 @@ $(function() {
 		var x = parseInt(property);
 		$('#myP').css('font-size' , x * 0.6);
 	});
-
 });
