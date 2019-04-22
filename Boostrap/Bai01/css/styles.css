@@ -1,0 +1,61 @@
+.row:last-child{
+	height: 500px;
+	background-color: #c8ced3;
+}
+
+.col-lg-2{
+	background-color: #3a4248;
+}
+
+#content{
+	height: 550px;
+}
+
+#select{
+	color: white;
+	text-decoration: none;
+}
+
+.row:first-child, #select, .navbar, .col-lg-10{
+	height: 50px;
+}
+
+.navbar-toggler{
+	font-size: 10px;
+}
+
+.collapse{
+	background-color: #2f353a;
+}
+
+.col-lg-10{
+	background-color: #e4e5e6;
+}
+
+.btn-group{
+	width: 300px; 
+	height: 40px;
+	margin: 2px 0px 0px 150px; 
+}
+
+#btn{
+	width: 240px; 
+	height: 26px;
+}
+
+.nav-link:hover{
+	background-color: #007bff;
+}
+
+.active, .nav-link:focus{
+	background-color: #3a4248;
+}
+
+.navbar-brand:hover, h5:hover, .navbar-toggler-icon:hover{
+	opacity: 0.8;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+	background-color: lightblue;
+	color: white;
+}
